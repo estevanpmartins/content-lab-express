@@ -1,0 +1,190 @@
+	body {
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	}
+
+	.logobox {
+		max-width: 250px;
+	}
+
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+
+	.responsive {
+		width: 100%;
+		height: auto;
+	}
+
+	.title {
+		text-align: center;
+		font-weight: 100;
+		font-size: 40px;
+		text-transform:uppercase;
+		letter-spacing: 3px;
+		margin-bottom: -15px;
+		color: #2d3c49;
+	}
+
+	.subtitle {
+		text-align: center;
+		text-transform:uppercase;
+		font-size: 20px;
+		letter-spacing: 4px;
+		color: #7d97ad;
+
+	}
+
+	.topwrapper {
+		display: flex;
+		flex-wrap: wrap;
+		padding-left: 30px;
+		padding-right: 30px;
+
+	}
+
+	.footerwrapper {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.homebox-title {
+		text-align: center;
+		letter-spacing: 2px;
+		font-weight: bold;
+	}
+
+	.footertitle {
+
+		text-align: center;
+		letter-spacing: 4px;
+		color: #7d97ad;
+		
+	}
+
+	.contentbox {
+		width: 350px;
+		padding: 15px;
+	}
+
+	hr {
+
+		border: 4px solid #7d97ad;
+		border-radius: 5px;
+		
+	}
+
+	.homebox-title {
+		font-weight: bold;
+		letter-spacing: 5px;
+		color: #2d3c49;
+
+	}
+
+
+
+	@media screen and (min-width: 450px) {
+
+		.logobox {
+			width:100%;
+		}
+
+		.titlebox {
+			width:100%;
+			text-align: center;
+		}
+
+		.footerwrapper {
+			width: 100%;
+		}
+
+		.contenbox {
+			width: 400px;
+		}
+
+	}
+
+
+	@media screen and (min-width: 650px) {
+
+		.logobox {
+			width:100%;
+		}
+
+		.titlebox {
+			width:100%;
+			text-align: center;
+		}
+
+		.footerwrapper {
+			width: 100%;
+		}
+
+		.contenbox {
+			width: 500px;
+		}
+
+	}
+
+	@media screen and (min-width: 850px){
+
+		.logobox {
+			width:30%;
+	}
+
+		.titlebox {
+			width:70%;
+			margin-top: 40px;
+		}
+
+
+		.title {
+		text-align: right;
+	}
+
+		.subtitle {
+		text-align: right;
+	}
+
+
+		.footerwrapper {
+			width: 100%;
+		}
+
+	 	.contenbox {
+			width: 30%;
+		}
+
+
+	}
+
+	@media screen and (min-width: 950px) {
+		.logobox {
+			width:20%
+		}
+
+		.titlebox {
+			width: 80%;
+		}
+	}
+
+
+	@media screen and (min-width: 1200px) {
+          body {
+          width: 1200px;
+      		margin-right: auto;
+      		margin-left: auto;
+      	}
+
+				.logobox {
+					width:20%
+				}
+
+				.titlebox {
+					width: 80%;
+				}
+
+
+			}
