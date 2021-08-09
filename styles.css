@@ -130,7 +130,7 @@
 
 	.mainmenu .bg-items li i:hover {
 		color: white;
-		transition: 0.1s;
+		transition: 0.2s;
 	}
 
 	.mainmenu:hover .bg-items li:nth-child(1) {
