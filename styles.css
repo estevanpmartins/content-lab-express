@@ -16,6 +16,7 @@
 	.responsive {
 	    width: 100%;
 	    height: auto;
+		padding-top: 20px;
 	}
 	
 	.title {
@@ -43,39 +44,149 @@
 	    padding-right: 30px;
 	}
 	
-	.footerwrapper {
-	    display: flex;
-	    flex-wrap: wrap;
-	}
-	
-	.homebox-title {
-	    text-align: center;
-	    letter-spacing: 2px;
-	    font-weight: bold;
-	}
-	
-	.footertitle {
-	    text-align: center;
-	    letter-spacing: 4px;
-	    color: #7d97ad;
-	}
-	
-	.contentbox {
-	    width: 350px;
-	    padding: 15px;
-	}
 	
 	hr {
 	    border: 4px solid #7d97ad;
 	    border-radius: 5px;
 	}
-	
-	.homebox-title {
-	    font-weight: bold;
-	    letter-spacing: 5px;
-	    color: #2d3c49;
+
+	main {
+		display: grid;
+		place-items: center;
+		width: 100%;
+		height: 600px;
 	}
+	.start-here {
+		padding-top: 50px;
+	}
+
+	.mainmenu {
+		/*display: grid;
+		place-items: center; */
+		width: 250px;
+		height: 250px;
+		/* line-height: 150px; */
+		border-radius: 50%;
+		background: #65C8D0;
+		margin: auto;
+		position: relative;
+		cursor: pointer;
+		text-align: center;
+		font-size: 3em;
+		font-weight: bold;
+		color: black;
+		transition: 0.24s 0.2s;
+	}
+
+	.mainmenu:hover {
+		color: white;
+		cursor: pointer;
+		transition: 0.1s;
+	}
+
+	.mainmenu .bg-items {
+		list-style-type:none;
+		padding:0;
+		margin: 0;
+		position:absolute;
+		top: -75px;
+		left: -75px;
+		border: 150px solid transparent;
+		cursor: default;
+		border-radius: 50%;
+		transform: scale(0);
+		transition: transform 1.4s 0.07s;
+		z-index: index -1;
+	}
+	.mainmenu:hover .bg-items {
+		transition: transform 0.4s 0.08s, z-index 0s 0.5s;
+		transform: scale(1);
+		z-index: 1;
+	}
+
+	.mainmenu .bg-items li {
+		position: absolute;
+		top: -130px;
+		left: -130px;
+		transform-origin: 180px 180px;
+		transition: all 0.5s 0.1s;
+	} 
+
+	.mainmenu .bg-items li {
+		transition: all 0.7s;
+	} 
+
+	.mainmenu .bg-items li i {
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+		border-radius: 50%;
+		background: #65c8d0;
+		position: absolute;
+		font-size: 1em;
+		color: black;
+		transition: 0.4s;
+	} 
+
+	.mainmenu .bg-items li i:hover {
+		color: white;
+		transition: 0.1s;
+	}
+
+	.mainmenu:hover .bg-items li:nth-child(1) {
+		transition-delay: 0.02s;
+		transform: rotate(85deg);
+	} 
+
+	.mainmenu:hover .bg-items li:nth-child(1) i {
+		transition-delay: 0.04s;
+		transform: rotate(635deg);
+	} 
+
+	.mainmenu:hover .bg-items li:nth-child(2) {
+		transition-delay: 0.04s;
+		transform: rotate(125deg);
+	} 
+
+	.mainmenu:hover .bg-items li:nth-child(2) i {
+		transition-delay: 0.08s;
+		transform: rotate(595deg);
+	} 
+
+	.mainmenu:hover .bg-items li:nth-child(3) {
+		transition-delay: 0.06s;
+		transform: rotate(165deg);
+	} 
 	
+	.mainmenu:hover .bg-items li:nth-child(3) i {
+		transition-delay: 0.12s;
+		transform: rotate(555deg);
+	} 
+
+	.mainmenu:hover .bg-items li:nth-child(4) {
+		transition-delay: 0.08s;
+		transform: rotate(205deg);
+	} 
+
+	.mainmenu:hover .bg-items li:nth-child(4) i {
+		transition-delay: 0.16s;
+		transform: rotate(515deg);
+	} 
+
+	.mainmenu:hover .bg-items li:nth-child(5) {
+		transition-delay: 0.1s;
+		transform: rotate(245deg);
+	} 
+
+	.mainmenu:hover .bg-items li:nth-child(5) i {
+		transition-delay: 0.2s;
+		transform: rotate(475deg);
+	} 
+	.mainmenu:hover .bg-items li:nth-child(6) {
+		transition-delay: 0.12s;
+		transform: rotate(285deg);
+	} 
+
 	@media screen and (min-width: 450px) {
 	    .logobox {
 	        width: 100%;
