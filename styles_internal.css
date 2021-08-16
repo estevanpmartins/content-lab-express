@@ -106,6 +106,16 @@
 		text-decoration: none;
 		color: #000;
 	}
+
+	.video-container {
+		display: grid;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
+	.video-item-1 {
+		float: left;
+	}
 	
 	@media screen and (min-width: 650px) {
 		.mainmenu {
