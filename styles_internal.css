@@ -1,6 +1,7 @@
 	body {
 	    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	}
+
 	
 	.logobox {
 	    max-width: 250px;
@@ -117,6 +118,20 @@
 		float: left;
 	}
 	
+	.about-us-text {
+		text-align: center;
+	}
+
+	.about-us-title, .questions {
+		padding-bottom: 30px;
+		text-align: center;
+	}
+
+	.about-us-div {
+	    padding-left: calc(7% + 100px);
+	    padding-right: calc(7% + 100px);
+	}
+
 	@media screen and (min-width: 650px) {
 		.mainmenu {
 			width: 200px;
